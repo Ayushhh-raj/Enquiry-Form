@@ -1,2 +1,2 @@
-# MiniProject
- Basically it is a enquiry form by using HTML and CSS
+# Mini project
+it is registration form with spring boot 

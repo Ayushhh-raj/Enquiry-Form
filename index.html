@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Enquiry Desk</h2>
+    <fieldset>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+<input type="text " id="name" name="name"><br><br>
+
+<label for="email">Email:</label>
+<input type="email " id="email" name="email" ><br><br>
+
+<label for="phone">Mobile no:</label>
+<input type="phone " id="phone" name="phone"><br><br> 
+
+<label for="date">DOB:</label>
+<input type="date">
+<br><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+ <input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br><br>
+
+<label for="comment">Comment</label>
+<input type="text"><br>
+<br>
+<input type="button" value="submit" onclick={postdata}>
+    </form>
+</fieldset>
+</body>
+</html>
